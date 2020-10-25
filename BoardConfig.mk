@@ -35,3 +35,5 @@ TARGET_OTA_ASSERT_DEVICE := dumpling,OnePlus5T,oneplus5t
 -include vendor/oneplus/dumpling/BoardConfigVendor.mk
 
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
+SKIP_BOOT_JARS_CHECK := true
