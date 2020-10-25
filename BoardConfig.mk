@@ -37,3 +37,6 @@ TARGET_OTA_ASSERT_DEVICE := dumpling,OnePlus5T,oneplus5t
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 SKIP_BOOT_JARS_CHECK := true
+
+# Inherit from the rs vendor directory
+-include vendor/rs/config/BoardConfigAOSP.mk
