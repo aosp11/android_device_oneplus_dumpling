@@ -43,6 +43,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=goodix \
+    pm.dexopt.bg-dexopt=speed \
+    pm.dexopt.core-app=speed \
+    pm.dexopt.forced-dexopt=speed \
+    pm.dexopt.install=speed \
+    pm.dexopt.nsys-library=speed \
+    pm.dexopt.shared-apk=speed
     
 # Keylayouts
 PRODUCT_COPY_FILES += \
